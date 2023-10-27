@@ -1,0 +1,36 @@
+body {
+    text-align: center;
+}
+
+.tic-tac-toe {
+    max-width: 300px;
+    margin: 0 auto;
+}
+
+h1 {
+    font-size: 24px;
+}
+
+.message {
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+.board {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.cell {
+    width: 100px;
+    height: 100px;
+    font-size: 24px;
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+    border: 1px solid #000;
+}
+
+.cell:hover {
+    background-color: #f2f2f2;
+}
